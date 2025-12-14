@@ -12,3 +12,5 @@ if(marks >=50) return 'D'
 if(marks<50)   return 'Fail'
 }
 console.log(gradeCalculator(56));
+
+console.log("email fixed, streak test");
