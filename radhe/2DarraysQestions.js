@@ -128,6 +128,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 7️⃣ Search an element in a 2D array
 
 // Given a number X, check whether it exists in the 2D array or not.
