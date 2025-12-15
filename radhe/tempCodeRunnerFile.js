@@ -1,3 +1,2 @@
-
-let arr = [[1,2], [3,4]];
-conso
+or (let j = 0; j < matrix[i].length; j++) {
+//   }
