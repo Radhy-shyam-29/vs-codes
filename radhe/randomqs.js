@@ -338,8 +338,23 @@
 // // // ["H", "E", "L", "L", "O"]
 
 
-let obj = {
-    id: 1, name: "Aman", age: 22,
-    id: 2, name: "Radhey", age: 27,
-    id: 3, name: "Ravi", age: 20 
+// let obj = {
+//     id: 1, name: "Aman", age: 22,
+//     id: 2, name: "Radhey", age: 27,
+//     id: 3, name: "Ravi", age: 20 
+// }
+// for (let i = 0; i < obj.length; i++) {
+//   console.log(obj[i]);
+// }
+
+let user = { name: "Aman", age: 22, city: "Delhi" };
+
+for (let key in user) {
+  console.log(key, user[key]);
 }
+
+
+
+// let user = new Object();
+// user.name = "Amit";
+// user.age = 22;
