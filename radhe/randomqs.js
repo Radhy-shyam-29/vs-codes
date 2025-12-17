@@ -343,18 +343,136 @@
 //     id: 2, name: "Radhey", age: 27,
 //     id: 3, name: "Ravi", age: 20 
 // }
-// for (let i = 0; i < obj.length; i++) {
-//   console.log(obj[i]);
+// console.log(Object.entries(obj));   
+// // [ ["name","Aman"], ["age",22], ["city","Delhi"] ]
+
+
+// let user = { name: "Aman", age: 22, city: "Delhi" };
+
+// for (let key in user) {
+//   console.log(key, user[key]);
 // }
 
-let user = { name: "Aman", age: 22, city: "Delhi" };
-
-for (let key in user) {
-  console.log(key, user[key]);
-}
 
 
 
 // let user = new Object();
 // user.name = "Amit";
 // user.age = 22;
+
+
+// let users = [
+//   { id: 1, name: "Aman" },
+//   { id: 2, name: "Radhey" }
+// ];
+
+// for (let i = 0; i < users.length; i++) {
+//   console.log(users[i].id);
+// }
+
+
+// let arr = [["a",1], ["b",2]];
+// Object.fromEntries(arr);
+// // { a:1, b:2 }
+// console.log(arr);
+
+
+// let a = { x: 1 };
+// let b = { y: 2 };
+
+// let c = Object.assign({}, a, b);
+
+
+// console.log(c);
+
+
+// let str = 'qwertyuiopasdfghjklzxcvbnm'
+
+// console.log(str.split('').sort().join())
+
+
+
+// let add =function(a, b) {
+//     return a + b;
+// }
+
+
+// let add = (a,b)=> {
+//     return a + b
+// }
+// console.log(add(1,2))
+
+
+// function show() {
+//   console.log(this);
+// }
+
+// show();
+
+// let str  ='DogCat'
+// let result = ''
+// for(let i=3; i<str.length; i++){
+// result += str[i]
+// }
+// for(let i=0; i<3; i++){
+//     result += str[i]
+// }
+
+// console.log(result)
+
+
+
+// let arr = ['DogCat'];
+// // let str = arr[0];
+// let res = '';
+
+// // Cat part
+// for (let i = 3; i < arr.length; i++) {
+//   res.push(arr[i]);
+// }
+
+// // Dog part
+// for (let i = 0; i < 3; i++) {
+//   res.push( arr[i])
+// }
+
+// console.log(res); // CatDog
+
+// // // console.log(str.split('A'<'Z').reverse().join(''))
+
+// let arr = ['DogCat'];
+// // let str = arr[0];
+// let res = []
+
+// // Cat part
+// for (let i = 3; i < arr[0].length; i++) {
+//   res.push(arr[0][i])
+// }
+
+// // Dog part
+// for (let i = 0; i < 3; i++) {
+//   res.push(arr[0][i])
+// }
+
+// console.log(res.join('')); // CatDog
+
+
+// let str = "hello world";
+
+// str.toUpperCase();
+// console.log(str); // "HELLO WORLD"
+
+// let a = "Admin";
+// let b = "admin";
+
+// if (a.toLowerCase() === b.toLowerCase()) {
+//   console.log("Same");
+// } else {
+//   console.log("Not Same");
+// }
+
+
+// let name = "radhey";
+
+// let result = name[0].toUpperCase() + name.slice(1);
+// // console.log(result); // "Radhey"
