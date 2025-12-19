@@ -78,19 +78,19 @@
 
 
 
-let obj = {
-    name : 'radhey',
-    age : 26,
-    course : 'MERN'
-}
-// let ram = Object.values(obj)
-// for(let i=0; i<ram.length; i++){
+// let obj = {
+//     name : 'radhey',
+//     age : 26,
+//     course : 'MERN'
 // }
-// console.log(ram)
+// // let ram = Object.values(obj)
+// // for(let i=0; i<ram.length; i++){
+// // }
+// // console.log(ram)
 
-for(let [rama,shyama] of Object.entries(obj)){
-    console.log(rama, shyama)
-}
+// for(let [rama,shyama] of Object.entries(obj)){
+//     console.log(rama, shyama)
+// }
 // obj.aadharNum = 828936276270
 // // delete obj.name
 // obj.age = 30
@@ -103,3 +103,20 @@ for(let [rama,shyama] of Object.entries(obj)){
 
 // // 'œ˙´´`˳þ¥¨ʼø,“‘¯ßðƒ©ˍ˝˚-ˀ.¸ˇ˘˜˛≤≥'
 
+// console.log('new starts')
+
+let obj3 = {
+    name : 'radhey',
+    age : 26,
+    course : 'MERN'
+}
+
+
+delete obj3.name
+obj3.age = 30
+
+let obj2 = obj3 
+
+obj2.age = 40
+let {age:myage,course:mycourse} = obj3
+console.log(myage);
