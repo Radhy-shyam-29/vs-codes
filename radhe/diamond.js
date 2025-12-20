@@ -105,18 +105,125 @@
 
 // console.log('new starts')
 
-let obj3 = {
-    name : 'radhey',
-    age : 26,
-    course : 'MERN'
+// let obj3 = {
+//     name : 'radhey',
+//     age : 26,
+//     course : 'MERN'
+// }
+
+
+// delete obj3.name
+// obj3.age = 30
+
+// let obj2 = obj3 
+
+// obj2.age = 40
+// let {age:myage,course:mycourse} = obj3
+// console.log(myage);
+
+// let ar = ['hi', 'by']
+
+// ar = ['hyyyyy']
+// console.log(ar)
+
+
+// F = (C × 9/5) + 32
+
+// function cal(f){
+
+//     f = (f * 9/5) + 32
+
+//     if(f >= 100) return 'very Hot'
+//     if(f >= 70) return 'Warm'
+//     if(f >= 50) return 'pleasent'
+//     if(f < 50) return 'cold'
+// }
+// console.log(cal(1))
+
+
+// let arr = [10, 20, 30, 40, 50]
+
+// let sum = 0
+// let count = 0
+// for(let i=0; i<arr.length; i++){
+//     sum += arr[i]
+//     count++
+// }
+
+// console.log(sum,sum/count, count)
+
+
+// let str = 'JavaScript'
+// let str2 = ''
+// for(let i=str.length-1; i>=0; i--){
+// str2 += str[i]
+// }
+// console.log(str2);
+
+
+// let student = {
+//     math: 85,
+//     science: 90,
+//     english: 78,
+//     hindi: 88
+// }
+
+// let sum = 0 
+// for(let val in student){
+//   sum += student[val]
+// }
+
+// console.log(sum);
+
+// let obj1 = {
+//     name: "Ram",
+//     marks: 85,
+//     attendance: 80
+// }
+
+// function marksCheck(obj){
+//     if(obj.attendance < 75 && (obj.marks <= 0 || obj.marks >= 100)){
+//         return 'detained'
+//     }
+// else{
+//        if(obj.attendance >= 75 && obj.marks >= 90){
+//         return 'A grade - Excellent'
+//        }
+//         if(obj.attendance >= 75 && obj.marks >= 75){
+//         return 'B grade - Excellent'
+//        } if(obj.attendance >= 75 && obj.marks >= 50){
+//         return 'C grade - Excellent'
+//        }
+//         if(obj.attendance >= 75 && obj.marks < 50){
+//         return 'Fail'
+//        }
+// }
+// }
+
+
+let obj1 = {
+    name: "Ram",
+    marks: 100,
+    attendance: 80
 }
 
+function marksCheck(obj){
+    if(obj.attendance < 75 || (obj.marks < 0 || obj.marks > 100)){
+        return 'detained'
+    }
+else{
+       if(obj.marks >= 90){
+        return 'A grade - Excellent'
+       }
+        if(obj.marks >= 75){
+        return 'B grade - Excellent'
+       } if(obj.marks >= 50){
+        return 'C grade - Excellent'
+       }
+        if(obj.marks < 50){
+        return 'Fail'
+       }
+}
+}
 
-delete obj3.name
-obj3.age = 30
-
-let obj2 = obj3 
-
-obj2.age = 40
-let {age:myage,course:mycourse} = obj3
-console.log(myage);
+console.log(marksCheck(obj1))
