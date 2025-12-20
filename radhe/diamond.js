@@ -227,3 +227,5 @@ else{
 }
 
 console.log(marksCheck(obj1))
+
+
