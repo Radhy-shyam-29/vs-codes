@@ -1,0 +1,13 @@
+#pre{
+    background-color : red
+}
+
+p{
+    background-color: yellow;
+    text-align: center;
+border: 1px solid black;
+}
+
+#br{
+    background-color: black;
+}
