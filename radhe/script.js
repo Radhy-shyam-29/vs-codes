@@ -119,7 +119,7 @@
 //       id: 1,
 //       user: {
 //         name: "Radhey",
-//         skills: ["JS", "React"]
+//         skills: ["JS", "React"]           
 //       }
 //     },
 //     {
@@ -131,4 +131,18 @@
 //     }
 //   ]
 // };
-// console.log(response.data[1].user.skills[1])
+// // console.log(response.data[1].user.skills[1])
+// // response = 'radhy'
+// console.log(response);
+
+
+// let user = { name: 123 };
+
+// console.log("user" in user);      // true
+// // console.log((Number) in user); 
+
+let arr = [1,2,3,4]
+console.log(arr.toString())
+
+let obj = {a:1, b:2}
+console.log(obj.toString())
